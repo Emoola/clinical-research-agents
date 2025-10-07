@@ -1,0 +1,4 @@
+TITLE: Obesity Medicine Referral Criteria
+• BMI ≥40, or ≥35 with T2D/OSA/HTN uncontrolled.
+• Failure of ≥6 months structured lifestyle intervention.
+• Contraindication or intolerance to first-line meds.

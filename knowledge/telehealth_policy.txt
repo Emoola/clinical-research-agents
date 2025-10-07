@@ -1,0 +1,2 @@
+Telehealth consent must include: risks/benefits, privacy limits, emergency plan, and in-person fallback.
+Document patient location and licensure jurisdiction for each encounter.

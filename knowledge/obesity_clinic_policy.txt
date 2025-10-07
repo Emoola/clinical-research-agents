@@ -1,0 +1,5 @@
+Referral criteria for Obesity Medicine Clinic:
+- BMI ≥30 kg/m², or ≥27 with ≥1 weight-related comorbidity (T2D, OSA, HTN).
+- Prior lifestyle intervention documented ≥3 months.
+- Contraindications: pregnancy, active eating disorder, uncontrolled psychiatric illness.
+- Medication initiation: consider GLP-1 RA if no contraindications and covered by plan.

@@ -1,0 +1,5 @@
+Local GLP-1 protocol (adult):
+- Start low and titrate q4 weeks; monitor GI tolerance, hydration, and glucose.
+- Hold 1 week prior to elective procedures requiring anesthesia.
+- Avoid in medullary thyroid carcinoma or MEN2 history; caution in pancreatitis history.
+- Follow-up at 4 and 12 weeks; discontinue if <5% weight loss by 12 weeks unless medically justified.

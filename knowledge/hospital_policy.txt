@@ -1,0 +1,1 @@
+Discharge summary must include medication list, diagnosis, procedures, follow-up date within 14 days, and primary care handoff.

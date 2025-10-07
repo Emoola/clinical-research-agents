@@ -1,0 +1,4 @@
+TITLE: Obesity Pharmacotherapy Protocol (Local)
+1) Initiation: GLP-1 may be started in adults with BMI ≥30 or ≥27 with comorbidity.
+2) Stop rule: Discontinue at 12 weeks if <5% weight loss unless specialist override.
+3) Peri-op: Hold weekly GLP-1 one week prior to general anesthesia or deep sedation.

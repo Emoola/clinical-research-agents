@@ -1,0 +1,5 @@
+azure-identity
+dotenv
+agent_framework
+mcp
+azure-cli
