@@ -1,9 +1,9 @@
-# Clinical Evidence Copilot (Azure AI Foundry + MCP)
+# Clinical Research Agents (Azure AI Foundry + MCP)
 
 **Goal:** Run a local, multi‑agent healthcare demo that calls your **Azure AI Foundry** model and uses **published MCP servers** to gather evidence from PubMed, ClinicalTrials.gov, the web (guidelines), and a local policy folder.
 
 
-# Quick Start (Windows cmd.exe style)
+## Quick Start (Windows cmd.exe style)
 
 ```bat
 pip install -r requirements.txt
@@ -60,7 +60,9 @@ clinical-evidence-simple/
 Orchestrator
   ↳ (parallel) Literature | Trials | Guidelines | Safety | Docs
   ↳ Compose → Final answer with Sources
+
 ```
+![Clinical workflow diagram](agent_diag.png)
 
 **Notes**
 - Filesystem MCP is sandboxed to `knowledge/`; the code only uses relative paths to avoid “outside allowed directories” errors
