@@ -1,6 +1,6 @@
 # Clinical Research Agents (Azure AI Foundry + MCP)
 
-**Goal:** Run a local, multi‑agent healthcare demo that calls your **Azure AI Foundry** model and uses **published MCP servers** to gather evidence from PubMed, ClinicalTrials.gov, the web (guidelines), and a local policy folder.
+**Goal:** Run a local, multi‑agent healthcare demo that calls the **Azure AI Foundry** new Agentic  and uses **published MCP servers** to gather evidence from PubMed, ClinicalTrials.gov, the web (guidelines), and a local policy folder.
 
 
 ## Quick Start (Windows cmd.exe style)
