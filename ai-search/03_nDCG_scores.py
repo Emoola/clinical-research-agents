@@ -10,6 +10,7 @@ from typing import List, Dict
 from dotenv import load_dotenv
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
+from azure.search.documents.models import VectorizedQuery
 from openai import AzureOpenAI  # Using AzureOpenAI specifically
 
 # ---- Configuration ----
@@ -117,8 +118,13 @@ def hybrid_search(query: str, k: int = K) -> List[Dict]:
         }
 
         print("Debug - Executing semantic search with parameters:", json.dumps(params, default=str))
+
+        query_vector = openai_client.embeddings.create(input = [query], model=EMBED_DEPLOYMENT).data[0].embedding
+        raw_vector_query = VectorizedQuery(vector=query_vector, k_nearest_neighbors=3, fields="contentVector")
+
         results = search_client.search(
             search_text=query,
+            vector_queries=[raw_vector_query],
             **params
         )
 
